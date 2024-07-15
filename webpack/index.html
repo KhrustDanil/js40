@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Logo</div>
+            <h1 class="title">Frontend test, second level</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="menu-item active" data-content="content1">item 1</div>
+                <div class="menu-item" data-content="content2">item 2</div>
+                <div class="menu-item" data-content="content3">item 3</div>
+                <div class="menu-item" data-content="content4">item 4</div>
+                <div class="menu-item" data-content="content5">item 5</div>
+                <div class="menu-item" data-content="content6">item 6</div>
+                <div class="menu-item" data-content="content7">item 7</div>
+                <div class="copy" data-content="content7">© 2024</div>
+            </div>
+            <div class="main-content">
+                <div class="element"><img src="./el.jpg" alt="el"></div>
+                <div id="content1" class="content-block active">
+                    Потрібно зверстати цей макет. CSS фреймворки і бібліотеки використовувати можна, але в розумних межах, це значить що не варто підключати весь bootstrap, якщо він буде використовуватися тільки для того щоб скинути стилі.
+                </div>
+                <div id="content2" class="content-block">
+                    Розраховувати на ширину екрана 1000 пікселів. Він не повинен бути "піксель в піксель", але пропорцій сторін краще дотримуватися.
+                </div>
+                <div id="content3" class="content-block">
+                    Переключення пунктів зліва потрібно реалізувати за допомогою JavaScript (jQuery). При кліку на другий пункт меню, він повинен активуватися, а вміст всього синього блоку повинен змінюватися.
+                </div>
+                <div id="content4" class="content-block">
+                    При активації пункту меню зміна вмісту синього блоку, бажано, повинна відбуватися з анімацією.
+                </div>
+                <div id="content5" class="content-block">
+                    Гаряче привітствується використання препроцесорів для CSS. Не забудьте прикласти вихідний код.
+                </div>
+                <div id="content6" class="content-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div id="content7" class="content-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="module.js"></script>
+</body>
+</html>
